@@ -15,7 +15,7 @@ function Mafia() {
 
   return (
     <nav className={nav ? "nav actic" : "nav"}>
-      <a href="#" className="logo">
+      <a href="/" className="logo">
         <img src={logo} alt="" />
       </a>
       <input type="checkbox" className="menu-btn" />
@@ -24,19 +24,19 @@ function Mafia() {
       </label>
       <ul className="menu">
         <li>
-          <a href="#">Home</a>
+          <a href="#home">Home</a>
         </li>
         <li>
-          <a href="#">Feature</a>
+          <a href="#feature">Feature</a>
         </li>
         <li>
-          <a href="#">About</a>
+          <a href="#about">About</a>
         </li>
         <li>
-          <a href="#">UI SS</a>
+          <a href="#ui">UI SS</a>
         </li>
         <li>
-          <a href="#">Download</a>
+          <a href="#download">Download</a>
         </li>
       </ul>
     </nav>
