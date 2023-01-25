@@ -1,7 +1,7 @@
 import React from "react";
 import FeatureBox from "./FeatureBox";
 import featureimage from "../first-app-png/2896.png" ;
-import featureimage2 from "../first-app-png/228.png" ;
+import featureimage2 from "../first-app-png/instagram.png" ;
 import featureimage3 from "../first-app-png/YTB.png" ;
 
 function Feature() {
