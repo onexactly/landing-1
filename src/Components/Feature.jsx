@@ -1,0 +1,20 @@
+import React from "react";
+import FeatureBox from "./FeatureBox";
+import featureimage from "../first-app-png/2896.png" ;
+import featureimage2 from "../first-app-png/228.png" ;
+import featureimage3 from "../first-app-png/YTB.png" ;
+
+function Feature() {
+  return( 
+  
+  <div id="features">
+    <div className="a-container">
+        <FeatureBox image={featureimage} title="Development Course"/>
+        <FeatureBox image={featureimage} title="Landing Page Price"/>
+        <FeatureBox image={featureimage} title="Team Working"/>
+    </div>
+  </div>
+  )
+}
+
+export default Feature;

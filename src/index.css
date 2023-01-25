@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,800;1,800&display=swap");
+
 body {
   margin: 0px;
   padding: 0px;
@@ -53,7 +55,7 @@ nav ul {
   display: flex;
 }
 .active {
-  background-color: #00b7ff;
+  background-color: #8800ff;
   color: #ffffff;
   box-shadow: 5px 10px 30px rgba(189, 198, 64, 0.411);
   transition: all ease 0.2s;
@@ -68,7 +70,7 @@ nav ul li a {
   font-size: 0.9rem;
   text-transform: uppercase;
   font-weight: 500;
-  color: #000000;
+  color: #5f5d5d;
   letter-spacing: 1px;
   border-radius: 3px;
   transition: 0.2s ease-in-out;
@@ -76,7 +78,7 @@ nav ul li a {
 nav ul li a:hover {
   background-color: #c60909;
   color: #ffffff;
-  box-shadow: 5px 10px 30px rgba(2, 238, 255, 0.336);
+  box-shadow: 5px 10px 30px rgba(2, 238, 255, 0.785);
   transition: all ease 0.2s;
 }
 nav .menu-btn,
@@ -85,24 +87,24 @@ nav .menu-btn,
 }
 .name {
   font-family: "Montserrat";
-  width: 500px;
+  width: 900px;
   position: absolute;
-  left: 22%;
-  top: 50%;
+  left: 40%;
+  top: 20%;
   transform: translate(-22%, -50%);
 }
 .name span {
-  color: #00b7ff;
+  color: #000000;
 }
 .name .details {
-  color: #969696;
+  color: #f19544a8;
 }
 .name h1 {
   font-family: "Montserrat";
-  font-size: 40px;
+  font-size: 45px;
   margin: 0px;
   letter-spacing: 2px;
-  color: #000000;
+  color: #ff0404;
 }
 .header-btns {
   display: flex;
@@ -114,13 +116,13 @@ nav .menu-btn,
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #00b7ff;
+  background-color: #ff0000;
   box-shadow: 5px 10px 30px rgba(2, 238, 255, 0.336);
   border-radius: 10px;
   color: #ffffff;
 }
 .cv-btn:hover {
-  background-color: #0099ff;
+  background-color: #000000;
   transition: all ease 0.5s;
   color: #ffffff;
 }

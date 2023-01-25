@@ -24,7 +24,7 @@ function Mafia() {
       </label>
       <ul className="menu">
         <li>
-          <a href="#home">Home</a>
+          <a href="#home" className="active">Home</a>
         </li>
         <li>
           <a href="#feature">Feature</a>
