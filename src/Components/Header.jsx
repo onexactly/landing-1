@@ -7,7 +7,7 @@ function Header() {
       <Mafia />
       <div className="name">
         <h1><span>Your First Creative Page</span>      In Your Life</h1>
-        <p className="details" > Aille Best Development Team and Servises !</p>
+        <p className="details" > Agille Best Development Team and Servises !</p>
         <a href="0" className="cv-btn">Download</a>
       </div>
     </div>

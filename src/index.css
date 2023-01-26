@@ -164,7 +164,7 @@ nav .menu-btn,
 }
 .about-text h2 {
   font-size: 2rem;
-  color: #00b7ff;
+  color: #ff0000;
   font-weight: 500;
   margin: 0px;
   padding: 0px;
@@ -182,10 +182,10 @@ nav .menu-btn,
   border: none;
   outline: none;
   color: #ffffff;
-  background-color: #00b7ff;
+  background-color: #ff0000;
 }
 .about-text button:hover {
-  background-color: rgb(0, 132, 255);
+  background-color: rgb(255, 98, 0);
   transition: all ease 0.3s;
   color: #ffffff;
 }
@@ -234,7 +234,7 @@ nav .menu-btn,
   height: 100%;
 }
 .a-box:hover {
-  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 2px 12px rgba(255, 0, 0, 0.1);
 }
 #presentaion {
   padding-top: 30px;
@@ -243,7 +243,7 @@ nav .menu-btn,
   position: relative;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(first-app-png/ICON_SET.png);
+  background-image: url(first-app-png/2489.png);
   text-align: center;
 }
 #presentaion h1 {
