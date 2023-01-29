@@ -5,6 +5,7 @@ import About from "./Components/About";
 import Presentation from "./Components/Presentation";
 import aboutimage from "./first-app-png/about.png";
 import aboutimage1 from "./first-app-png/9.png";
+import Contact from "./Components/Contact";
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <About image={aboutimage} title="Comes With All You Need For Daily Life" button="Get The App" />
       <About image={aboutimage1} title="Download And Get The APP Now" button="Download" />
       <Presentation/>
+      <Contact/>
 
     </div>
   );
