@@ -1,13 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,800;1,800&display=swap");
 
-body {
-  padding: 0px;
+* body {
+  padding: 0;
+  margin: 0;
 
   background-color: #e1ebe9;
   font-family: "Montserrat", sans-serif;
 }
 * {
   box-sizing: border-box;
+  
+
 }
 ul {
   list-style: none;
@@ -392,7 +395,7 @@ nav .menu-btn,
 }
 @media (max-width: 1190px) {
   #main {
-    background-size: 1150px !important;
+    background-size: 1350px !important;
   }
   .name {
     left: 50%;
